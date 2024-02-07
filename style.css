@@ -26,10 +26,18 @@ body {
     --width: 100px;
 }
 
+.white.active {
+    background-color: #CCC;
+}
+
 .black {
     background-color: black;
     --width: 60px;
     margin-left: calc(var(--width) / -2);
     margin-right: calc(var(--width) / -2);
     z-index: 2;
+}
+
+.black.active {
+    background-color: #333;
 }
